@@ -11,5 +11,5 @@ Array.prototype.myMap = function (callback) {
 
 const arr = [1, 2, 3, 4, 5]
 const result = arr.myMap( v => v*10)  
-console.log(result)
+console.log(result)  // [ 10, 20, 30, 40, 50 ]
 
